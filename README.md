@@ -1,4 +1,4 @@
-# Aplikasi_krs_online
+# Aplikasi Portal Mahasiswa
 
 # Cara menggunakan git
 1. untuk mengkloning jalankan perintah ``` git clone https://github.com/baihaqyaviq/aplikasi_portal_mahasiswa.git```
