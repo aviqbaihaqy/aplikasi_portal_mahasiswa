@@ -6,16 +6,19 @@
 * Copyright (c) 2018 creativeLabs Łukasz Holeczek
 * Licensed under MIT (https://coreui.io/license)
 -->
-
+<!--
+#  Hani Faturafiqoh
+# 02
+-->
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
-    <meta name="author" content="Łukasz Holeczek">
-    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
-    <title>Daftar Semester Antara</title>
+    <meta name="description" content="">
+    <meta name="author" content=" Hani Faturafiqoh">
+    <meta name="keyword" content="Pemrograman Framework, Unsiq">
+    <title>Halaman Menu Daftar Semester Antara – Tab Mata Kuliah Semester Antara</title>
     <!-- Icons-->
     <link href="assets/vendors/css/flag-icon.min.css" rel="stylesheet">
     <link href="assets/vendors/css/font-awesome.min.css" rel="stylesheet">
@@ -41,10 +44,10 @@
           <a class="nav-link" href="#">Dashboard</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#">Users</a>
+          <a class="nav-link" href="#">Akademik</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#">Settings</a>
+          <a class="nav-link" href="#">Profil</a>
         </li>
       </ul>
       <ul class="nav navbar-nav ml-auto">
@@ -66,46 +69,25 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-            <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+            <img class="assets/img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
           </a>
           <div class="dropdown-menu dropdown-menu-right">
             <div class="dropdown-header text-center">
-              <strong>Account</strong>
+              <strong>Pengaturan</strong>
             </div>
             <a class="dropdown-item" href="#">
-              <i class="fa fa-bell-o"></i> Updates
-              <span class="badge badge-info">42</span>
+              <i class="fa fa-user"></i> Profil</a>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-wrench"></i> Ganti Password</a>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-usd"></i> Status Registrasi
+              <span class="badge badge-secondary">1</span>
             </a>
             <a class="dropdown-item" href="#">
-              <i class="fa fa-envelope-o"></i> Messages
-              <span class="badge badge-success">42</span>
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-tasks"></i> Tasks
-              <span class="badge badge-danger">42</span>
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-comments"></i> Comments
-              <span class="badge badge-warning">42</span>
-            </a>
-            <div class="dropdown-header text-center">
-              <strong>Settings</strong>
-            </div>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-user"></i> Profile</a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-wrench"></i> Settings</a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-usd"></i> Payments
-              <span class="badge badge-secondary">42</span>
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-file"></i> Projects
-              <span class="badge badge-primary">42</span>
+              <i class="fa fa-file"></i> Jadwal Kuliah
+              <span class="badge badge-primary">2</span>
             </a>
             <div class="divider"></div>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-shield"></i> Lock Account</a>
             <a class="dropdown-item" href="#">
               <i class="fa fa-lock"></i> Logout</a>
           </div>
@@ -169,7 +151,7 @@
           </li>
         </ul>
       </li>
-      <li class="nav-item nav-dropdown open">
+      <li class="nav-item nav-dropdown">
           <a class="nav-link nav-dropdown-toggle" href="#">
             <i class="fa fa-angle-double-right"></i> Pendaftaran Kegiatan</a>
           <ul class="nav-dropdown-items">
@@ -177,8 +159,8 @@
               <a class="nav-link" href="#" target="_top">
                 <i class="fa fa-angle-double-right"></i> Kuliah Kerja Nyata</a>
             </li>
-            <li class="nav-item open">
-              <a class="nav-link nav-link nav-link-success active" href="#" target="_top">
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_top">
                 <i class="fa fa-angle-double-right"></i> Daftar Semester Antara</a>
             </li>
             <li class="nav-item">
@@ -199,12 +181,12 @@
             </li>
           </ul>
         </li>
-          <li class="nav-item nav-dropdown">
+          <li class="nav-item nav-dropdown open">
             <a class="nav-link nav-dropdown-toggle" href="#">
               <i class="fa fa-angle-double-right"></i> Status Registrasi</a>
             <ul class="nav-dropdown-items">
-              <li class="nav-item">
-                <a class="nav-link" href="#" target="_top">
+              <li class="nav-item open">
+                <a class="nav-link nav-link nav-link-success active" href="#" target="_top">
                   <i class="fa fa-angle-double-right"></i> Informasi Tagihan</a>
               </li>
               <li class="nav-item">
@@ -268,10 +250,8 @@
       <main class="main">
         <!-- Breadcrumb-->
         <ol class="breadcrumb">
-          <li class="breadcrumb-item">Pendaftaran Kegiatan</li>
-          <li class="breadcrumb-item">
-            <a href="#">Daftar Semester Antara</a>
-          </li>
+          <li class="breadcrumb-item">Home</li>
+          <li class="breadcrumb-item active"><a href="#">Daftar Semester Antara</a></li>  
           <!-- Breadcrumb Menu-->
           <li class="breadcrumb-menu d-md-down-none">
             <div class="btn-group" role="group" aria-label="Button group">
@@ -279,130 +259,133 @@
                 <i class="icon-speech"></i>
               </a>
               <a class="btn" href="./">
-                <i class="icon-graph"></i>  Dashboard</a>
+                <i class="icon-graph"></i> Beranda</a>
               <a class="btn" href="#">
-                <i class="icon-settings"></i>  Settings</a>
+                <i class="icon-settings"></i> Pengaturan</a>
             </div>
           </li>
         </ol>
         <div class="container-fluid">
           <div class="animated fadeIn">
-            <div class="row">
-              <div class="col">
+            <div>
+              <table class="table table-bordered">
+                
+              </table>
+            </div>
+<!-- Tampilan Rincian Informasi Tagihan -->
+
+            
                 <ul class="nav nav-tabs" role="tablist">
                   <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#inf" role="tab" aria-controls="home">Informasi Umum</a>
+                    <a class="nav-link" data-toggle="tab" href="#satu" role="tab" aria-controls="home" aria-selected="true">Informasi Umum</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#mk" role="tab" aria-controls="profile">Matakuliah Semester Antara</a>
+                    <a class="nav-link active show" data-toggle="tab" href="#dua" role="tab" aria-controls="profile" aria-selected="false">Mata Kuliah Semester Antara</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#pend" role="tab" aria-controls="messages">Pendaftaran Semester Antara</a>
+                    <a class="nav-link" data-toggle="tab" href="#tiga" role="tab" aria-controls="messages" aria-selected="false">Pendaftaran Semester Antara</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#stat" role="tab" aria-controls="messages">Informasi Status Bayar</a>
+                    <a class="nav-link" data-toggle="tab" href="#empat" role="tab" aria-controls="messages" aria-selected="false">Informasi Status Bayar</a>
                   </li>
                 </ul>
-
                 <div class="tab-content">
-                  <div class="tab-pane active" id="inf" role="tabpanel">
-                    <center><h4><strong>Pendaftaran Kuliah Semester Antara Online</strong></h4></center>
-                    <table>
-                      <tr>
-                        <td>1.</td>
-                        <td><strong>Matakuliah Semester Antara</strong></td>
-                      </tr>
-                      <tr>
-                        <td></td>
-                        <td>Berisi informasi matakuliah yang akan diselenggarakan di Semester Antara pada tahun ini.</td>
-                      </tr>
-                      <tr>
-                        <td>2.</td>
-                        <td><strong>Pendaftaran Semester Antara</strong></td>
-                      </tr>
-                      <tr>
-                        <td></td>
-                        <td>Fasilitas ini akan membuatkan No.Tagihan Semester Antara bagi mahasiswa yang akan mengikuti perkuliahan semester pendek. Setelah mahasiswa memiliki No.Tagihan Semester Antara maka mahasiswa dapat segera melakukan pembayaran melalui multipayment Bank.</td>
-                      </tr>
-                      <tr>
-                        <td>3.</td>
-                        <td><strong>Informasi Status Bayar</strong></td>
-                      </tr>
-                      <tr>
-                        <td></td>
-                        <td>Berisi Informasi Status Pembayaran No.Tagihan Semester Antara saja. No.Tagihan Semester Antara pun dapat anda lihat pada menu <strong><a href="#">Status Registrasi</a> | <a href="#">Informasi Tagihan</a></strong></td>
-                      </tr>
-                    </table>
-                    <hr/>
-                      <div class="row">
-                        <div class="col">
-                          <div class="card">
-                            <div class="card-header">
-                              <strong>Ketentuan Pelaksanaan Semester Antara tahun 2012/2013</strong>
-                            </div>
-                            <div class="card-body">
-                              <ol start="1">
-                              <li>
-                                Beban studi maksimum yang dapat diambil oleh mahasiswa yang mengikuti semester antara adalah 6 <strong>SKS</strong>
-                              </li>
-                              <li>
-                                Mahasiswa yang berhak mengikuti semester antara untuk <strong>memperbaiki</strong> nilai akhir matakuliah (matakuliah sudah ditempuh) adalah yang memiliki nilai <strong>C,D atau E</strong>.
-                              </li>
-                              <li>
-                                Matakuliah dengan <strong>nilai K dan atau Kosong, tidak bisa DIPERBAIKI melalui semester antara di daftar matakuliah yang sudah diambil,</strong> tetapi pada daftar matakuliah yang belum diambil/akselerasi. <strong>(LIHAT KETENTUAN NOMOR 4 DIBAWAH).</strong>
-                              </li>
-                              <li>
-                                Mahasiswa yang berhak mengikuti semester antara untuk <strong>mengambil matakuliah yang ditempatkan pada semester diatasnya </strong>(untuk mempersingkat masa studi), minimal memiliki <strong>IPK 3.35.</strong>
-                              </li>
-                              </ol>
-                              <br>
-                                <strong>Keterangan :</strong>
-                                <ul>
-                                  <li>
-                                    Matakuliah yang tercantum pada daftar matakuliah yang sudah diambil, merupakan matakuliah yang dapat diambil pada semester antara untuk memperbaiki nilai akhir matakuliah (Remediasi).
-                                  </li>
-                                  <li>
-                                    Matakuliah yang tercantum pada daftar matakuliah yang belum diambil, merupakan matakuliah yang dapat diambil pada semester antara untuk mempersingkat masa studi 8 semester yang telah ditawarkan oleh Universitas (Akselerasi).
-                                  </li>
-                                </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col">
-                          <div class="card">
-                            <div class="card-header">
-                              <strong>Catatan</strong>
-                            </div>
-                            <div class="card-body">
-                              <ul>
-                                <li>Pendaftaran Semester Antara 2012/2013 dapat dilakukan pada tanggal <strong> 25 Juni 2013 Pukul 08:00:00 s/d 27 Juni 2013 Pukul 23:59:59</strong></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                  <div class="tab-pane" id="satu" role="tabpanel">
+                    <center><b>Pendaftaran Kuliah Semester Antara Online</b>
+                    <hr>
+                Empty</center>
                   </div>
-                  <div class="tab-pane" id="mk" role="tabpanel">
-                    2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <div class="tab-pane active show" id="dua" role="tabpanel">
+                    <center><b>DAFTAR MATA KULIAH SEMESTER ANTARA<br>TAHUN AKADEMIK 2012/2013</b></center>
+                          <table class="table  table-bordered">
+              <thead class="thead-default">
+                <tr class="table-active">
+                  <th>NO</th>
+                  <th>Sandi MK</th>
+                  <th>Mata Kuliah</th>
+                  <th>SKS</th>
+                  <th>Kuota</th>
+                  <th>Sisa Kuota</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>G1A705</td>
+                  <td>MANAJEMEN KERJA *)</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td>G1A707</td>
+                  <td>HUMAN SERVICES ORGANIZATION *)</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td>######</td>
+                  <td>###########</td>
+                  <td>#</td>
+                  <td>2</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <th>4</th>
+                  <td>G10A.507</td>
+                  <td>Manajemen Strategik</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <th>5</th>
+                  <td>G10A.508</td>
+                  <td>Sistem Pemerintahan Daerah</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <th>6</th>
+                  <td>G10A.601</td>
+                  <td>Manajemen Perubahan</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <th>7</th>
+                  <td>G10A.707</td>
+                  <td>Human Services Organization</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <th>8</th>
+                  <td>######</td>
+                  <td>##########</td>
+                  <td>#</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
                   </div>
-                  <div class="tab-pane" id="pend" role="tabpanel">
-                    3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <div class="tab-pane" id="tiga" role="tabpanel">
+                    <center><b>PENDAFTARAN KULIAH SEMESTER ANTARA TAHUN AKADEMIK 2012/2013</b><hr>Empty</center>
                   </div>
-                  <div class="tab-pane" id="stat" role="tabpanel">
-                    4. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <div class="tab-pane" id="empat" role="tabpanel">
+                   <center><b>INFORMASI STATUS KULIAH SEMESTER ANTARA TAHUN AKADEMIK 2012/2013</b><hr>Empty</center>
+      
                   </div>
+                  <!--end-->
                 </div>
-              </div>
-              <!--/.col-->
-            </div>
-            <!--/.row-->
           </div>
-
         </div>
       </main>
       <aside class="aside-menu">
@@ -427,40 +410,40 @@
         <div class="tab-content">
           <div class="tab-pane active" id="timeline" role="tabpanel">
             <div class="list-group list-group-accent">
-              <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Today</div>
+              <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Kabar Hari ini</div>
               <div class="list-group-item list-group-item-accent-warning list-group-item-divider">
                 <div class="avatar float-right">
                   <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                 </div>
-                <div>Meeting with
-                  <strong>Lucas</strong>
+                <div>Ngaji di Unsiq Gratis
+                  <strong>Mahasiswa</strong>
                 </div>
                 <small class="text-muted mr-3">
-                  <i class="icon-calendar"></i>  1 - 3pm</small>
+                  <i class="icon-calendar"></i>  7 - 11 pm</small>
                 <small class="text-muted">
-                  <i class="icon-location-pin"></i>  Palo Alto, CA</small>
+                  <i class="icon-location-pin"></i>  Munggang, Bawah</small>
               </div>
               <div class="list-group-item list-group-item-accent-info">
                 <div class="avatar float-right">
                   <img class="img-avatar" src="assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
                 </div>
-                <div>Skype with
-                  <strong>Megan</strong>
+                <div>Ngoding bareng
+                  <strong>OmoOtoke</strong>
                 </div>
                 <small class="text-muted mr-3">
                   <i class="icon-calendar"></i>  4 - 5pm</small>
                 <small class="text-muted">
                   <i class="icon-social-skype"></i>  On-line</small>
               </div>
-              <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Tomorrow</div>
+              <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Kemarin</div>
               <div class="list-group-item list-group-item-accent-danger list-group-item-divider">
-                <div>New UI Project -
+                <div>Buat Project -
                   <strong>deadline</strong>
                 </div>
                 <small class="text-muted mr-3">
                   <i class="icon-calendar"></i>  10 - 11pm</small>
                 <small class="text-muted">
-                  <i class="icon-home"></i>  creativeLabs HQ</small>
+                  <i class="icon-home"></i>  Kampret HQQ</small>
                 <div class="avatars-stack mt-2">
                   <div class="avatar avatar-xs">
                     <img class="img-avatar" src="assets/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
@@ -479,45 +462,7 @@
                   </div>
                 </div>
               </div>
-              <div class="list-group-item list-group-item-accent-success list-group-item-divider">
-                <div>
-                  <strong>#10 Startups.Garden</strong> Meetup</div>
-                <small class="text-muted mr-3">
-                  <i class="icon-calendar"></i>  1 - 3pm</small>
-                <small class="text-muted">
-                  <i class="icon-location-pin"></i>  Palo Alto, CA</small>
-              </div>
-              <div class="list-group-item list-group-item-accent-primary list-group-item-divider">
-                <div>
-                  <strong>Team meeting</strong>
-                </div>
-                <small class="text-muted mr-3">
-                  <i class="icon-calendar"></i>  4 - 6pm</small>
-                <small class="text-muted">
-                  <i class="icon-home"></i>  creativeLabs HQ</small>
-                <div class="avatars-stack mt-2">
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/8.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                </div>
+              
               </div>
             </div>
           </div>
