@@ -5,9 +5,9 @@
 2. copy **blank.html** dan **rename** sesuai dengan tugas masing-masing
 3. mulai membuat tampilan sesuai tugas, mengacu pada user manual
 4. **simpan**, jalankan perintah ``` git add .```
-5. jalankan perintah ``` git commit -m "keterangan"
-5. pastikan repository anda ***up-to-date*** dengan menjalankan perintah ``` git pull ```
-5. untuk mengupload, jalankan perintah ```git push origin master```
+5. jalankan perintah ``` git commit -m "keterangan" ```
+6. pastikan repository anda ***up-to-date*** dengan menjalankan perintah ``` git pull ```
+7. untuk mengupload, jalankan perintah ```git push origin master```
 
 # Cara menggunakan git
 1. untuk mengkloning jalankan perintah ``` git clone https://github.com/baihaqyaviq/aplikasi_portal_mahasiswa.git```
