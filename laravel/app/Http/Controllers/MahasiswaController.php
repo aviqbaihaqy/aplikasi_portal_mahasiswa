@@ -17,11 +17,7 @@ class MahasiswaController extends Controller
     }
 
     /**
-<<<<<<< HEAD
-     * Show the application dashboard.
-=======
      * menampilkan user interace keseluruhan data
->>>>>>> 57f7e5e9f5993c316a0d67fe46580af0bc538a67
      *
      * @return \Illuminate\Http\Response
      */
@@ -29,8 +25,6 @@ class MahasiswaController extends Controller
     {
         return view('mahasiswa');
     }
-<<<<<<< HEAD
-=======
 
     /**
      * menampilkan user interface form tambah data
@@ -86,5 +80,5 @@ class MahasiswaController extends Controller
     {
         //perintah untuk menghapus data
     }
->>>>>>> 57f7e5e9f5993c316a0d67fe46580af0bc538a67
+
 }
