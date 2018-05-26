@@ -25,12 +25,11 @@ class HomeController extends Controller
     {
         return view('home');
     }
-<<<<<<< HEAD
-=======
+
 
     public function mahasiswa()
     {
         return view('mahasiswa');
     }
->>>>>>> 57f7e5e9f5993c316a0d67fe46580af0bc538a67
+
 }
