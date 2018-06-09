@@ -12,10 +12,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
-    <meta name="author" content="Łukasz Holeczek">
-    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
-    <title>Data Transkrip Kemahasiswaan</title>
+    <meta name="description" content="Tugas Pemrograman Framework | NIM:">
+    <meta name="author" content="">
+    <meta name="keyword" content="Pemrograman Framework, Unsiq">
+    <title>Contoh Tampilan Unggah Karya Ilmiah</title>
     <!-- Icons-->
     <link href="assets/vendors/css/flag-icon.min.css" rel="stylesheet">
     <link href="assets/vendors/css/font-awesome.min.css" rel="stylesheet">
@@ -41,10 +41,10 @@
           <a class="nav-link" href="#">Dashboard</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#">Users</a>
+          <a class="nav-link" href="#">Akademik</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#">Settings</a>
+          <a class="nav-link" href="#">Profil</a>
         </li>
       </ul>
       <ul class="nav navbar-nav ml-auto">
@@ -66,46 +66,25 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-            <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+            <img class="assets/img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
           </a>
           <div class="dropdown-menu dropdown-menu-right">
             <div class="dropdown-header text-center">
-              <strong>Account</strong>
+              <strong>Pengaturan</strong>
             </div>
             <a class="dropdown-item" href="#">
-              <i class="fa fa-bell-o"></i> Updates
-              <span class="badge badge-info">42</span>
+              <i class="fa fa-user"></i> Profil</a>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-wrench"></i> Ganti Password</a>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-usd"></i> Status Registrasi
+              <span class="badge badge-secondary">1</span>
             </a>
             <a class="dropdown-item" href="#">
-              <i class="fa fa-envelope-o"></i> Messages
-              <span class="badge badge-success">42</span>
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-tasks"></i> Tasks
-              <span class="badge badge-danger">42</span>
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-comments"></i> Comments
-              <span class="badge badge-warning">42</span>
-            </a>
-            <div class="dropdown-header text-center">
-              <strong>Settings</strong>
-            </div>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-user"></i> Profile</a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-wrench"></i> Settings</a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-usd"></i> Payments
-              <span class="badge badge-secondary">42</span>
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-file"></i> Projects
-              <span class="badge badge-primary">42</span>
+              <i class="fa fa-file"></i> Jadwal Kuliah
+              <span class="badge badge-primary">2</span>
             </a>
             <div class="divider"></div>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-shield"></i> Lock Account</a>
             <a class="dropdown-item" href="#">
               <i class="fa fa-lock"></i> Logout</a>
           </div>
@@ -160,7 +139,7 @@
               <i class="fa fa-angle-double-right"></i> Jadwal & Absensi Kuliah</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link nav-link-success active" href="Contoh-Tampilan-Transkrip-Kemahasiswaan.html" target="_top">
+            <a class="nav-link" href="#" target="_top">
               <i class="fa fa-angle-double-right"></i> Transkip Kemahasiswaan</a>
           </li>
           <li class="nav-item">
@@ -177,8 +156,8 @@
               <a class="nav-link" href="#" target="_top">
                 <i class="fa fa-angle-double-right"></i> Kuliah Kerja Nyata</a>
             </li>
-            <li class="nav-item open">
-              <a class="nav-link" href="transkripmhs.html" target="_top">
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_top">
                 <i class="fa fa-angle-double-right"></i> Daftar Semester Antara</a>
             </li>
             <li class="nav-item">
@@ -186,7 +165,7 @@
                 <i class="fa fa-angle-double-right"></i> Beasiswa</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" target="_top">
+              <a class="nav-link nav-link-success active" href="#" target="_top">
                 <i class="fa fa-angle-double-right"></i> Unggah Karya Ilmiah</a>
             </li>
             <li class="nav-item">
@@ -268,9 +247,8 @@
       <main class="main">
         <!-- Breadcrumb-->
         <ol class="breadcrumb">
-          <li class="breadcrumb-item">Transkrip Kemahasiswaan</li>
-          
-          </li>
+          <li class="breadcrumb-item">Home</li>
+          <li class="breadcrumb-item active"><a href="#">Daftar Semester Antara</a></li>  
           <!-- Breadcrumb Menu-->
           <li class="breadcrumb-menu d-md-down-none">
             <div class="btn-group" role="group" aria-label="Button group">
@@ -278,199 +256,121 @@
                 <i class="icon-speech"></i>
               </a>
               <a class="btn" href="./">
-                <i class="icon-graph"></i>  Dashboard</a>
+                <i class="icon-graph"></i> Beranda</a>
               <a class="btn" href="#">
-                <i class="icon-settings"></i>  Settings</a>
+                <i class="icon-settings"></i> Pengaturan</a>
             </div>
           </li>
         </ol>
         <div class="container-fluid">
           <div class="animated fadeIn">
-            <div class="row">
-              <div class="col">
-                
-                <div class="tab-content">
-                  <div class="tab-pane active" id="inf" role="tabpanel">
-   <div class="card">
-                  <div class="card-header">
-                    DATA TRANSKRIP KEMAHASISWAAN
-                  </div>
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-sm-12">
-                                                  
-                             
-   <table style="width: auto;">
- 		 <img src="assets/img/profil.png" align="right" width="140" height="140">
-                      
-                      <tbody>
-                        <tr>
-                          <td>NIM</td>
-                          <td>:</td>
-                          <td>#####</td>
-                        </tr>
-                        <tr>
-                          <td>NAMA</td>
-                          <td>:</td>
-                          <td>#####</td>
-                          
-                        </tr>
-                        <tr>
-                          <td>ANGKATAN</td>
-                          <td>:</td>
-                          <td>#####</td>
-                          
-                        <tr>
-                          <td>PROGRAM</td>
-                          <td>:</td>
-                          <td>SARJANA</td>
-                          
-                        </tr>
-                        <tr>
-						<tr>
-                          <td>PROGRAM STUDI</td>
-                          <td>:</td>
-                          <td>TEKNIK INFORMATIKA</td>
-                        
-                        </tr>
-                       
+            <div class="card">
+              <div class="card-body">
+                <center><h3>DATA MAHASISWA</h3><hr></center>
+<table style="width: auto;">
+  <img src="assets/img/avatars/6.jpg" align="right" width="150px;">
+<tr>
   
-                      </tbody>
-                    </table>
-    
-                        <div class="progress-group mb-4">
-                          
-                      <!--/.col-->
-                     
-                          <div class="col-sm-6">
-                            <div class="callout callout-warning">
-                              
-                              <div class="chart-wrapper">
-                               
-                              </div>
-                            </div>
-                          </div>
-                          <!--/.col-->
-                          <div class="col-sm-6">
-                            <div class="callout callout-success">
-                              
-                              <div class="chart-wrapper">
-                                
-                              </div>
-                            </div>
-                          </div>
-                          <!--/.col-->
+<td width="150px"><b>NPM</b></td><td width="20px">:</td><td>######</td>
+</tr>
+<tr>
+  
+<td><b>Nama</b></td>
+<td>:</td>
+<td>######</td>
+</tr>
+<tr>
+  
+<td><b>Angkatan</b></td>
+<td>:</td>
+<td>######</td>
+</tr>
+<tr>
+  
+<td><b>Program</b></td>
+<td>:</td>
+<td>10 - Sarjana</td>
+</tr>
+<tr>
+  
+<td><b>Program Studi</b></td>
+<td>:</td>
+<td>######</td>
+</tr>
+</table>
+
+</div>
+</div>
+
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link " data-toggle="tab" href="#satu" role="tab" aria-controls="home" aria-selected="true">Informasi Umum</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active show" data-toggle="tab" href="#dua" role="tab" aria-controls="profile" aria-selected="false">Pendaftaran Acara</a>
+                  </li>
+                  
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane" id="satu" role="tabpanel">
+                   	<center>Empty</center>
+                  </div>
+                  <div class="tab-pane active show" id="dua" role="tabpanel">
+                    <center>
+                    <div class="card-body">
+                              <div class="form-group row" align="left">
+                        <label class="col-md-2 col-form-label" for="text-input">Judul </label>
+                        <div class="col-md-8">
+                          <input type="text" id="text-input" name="text-input" class="form-control" placeholder="Tampilan Unggah Karya Ilmiah">
+                      </div>
                         </div>
-                        <!--/.row-->
-                       
-                          
+                        <div class="form-group row" align="left">
                         
+                      <label class="col-md-2 col-form-label" for="text-input">Bahasa </label>
+                      <div class="col-md-8">
+				<select name="bahasa" class="in" required> 
+   				<option value=""> Pilih Bahasa </option>
+    			<option value="Indonesia">Indonesia</option>
+    			<option value="English">English</option>
+    			</select>
+         	</div>
+            </div>
+           				 <div class="form-group row" align="left">
+                        <label class="col-md-2 col-form-label" for="text-input">Kata Kunci </label>
+                        <div class="col-md-8"> 
+                          <input type="text" id="text-input" name="text-input" class="form-control" placeholder="Komputer, Administrasi">Dipisah tanda(,) misal : pemerintah, daerah, kota.<br>
+Kata kunci ini akan dijadikan meta data dan penghubung dengan karya ilmiah lainnya
+                      </div>
+                        </div>
+                         <div class="form-group row" align="left">
                         
-                        </div>
-                        <div class="progress-group">
-                          
-                          <div class="progress-group-bars">
-                            
-                          </div>
-                        </div>
-                        <div class="progress-group">
-                          
-                          <div class="progress-group-bars">
-                            
-                          
+                      <label class="col-md-2 col-form-label" for="text-input">Persetujuan publikasi </label>
+                      <div class="col-md-8">
+				<select name="persetujuan" class="in" required> 
+    			<option value="Ya">Ya</option>
+    			<option value="Tidak">Tidak</option>
+    			</select>
+         	</div>
+            </div>
+                    <div class="form-group row" align="left">
+                   
+                        <label class="col-md-2 col-form-label" for="textarea-input">Abstrak  </label>
+                        <div class="col-md-8">
+                          <textarea id="textarea-input" name="textarea-input" rows="9" class="form-control" placeholder="karya ilmiah adalah karya-karya kreatif yang dimunculkan orang-orang kreatif"></textarea>
                         </div>
                       </div>
-                      <!--/.col-->
-                    </div>
-                    <!--/.row-->
-                  
-               <div class="row">
-
-              <div class="col-lg-12">
-                <div class="card">
-                  <div class="card-header">
-                    <i class="fa fa-align-justify"></i> Tahun Ajaran : 2018/2019 - Genap
+                      <div class="col-md-8" align="left">
+                      <button type="submit">
+                      <i class="fa"></i>Lanjutkan</button>
+                      
+                    </center>
                   </div>
-                  <div class="card-body">
-                    <table class="table table-responsive-sm table-bordered">
-                      <thead>
-                        <tr>
-                          <th width="10" align="center"><center>No</center></th>
-                          <th>Nama Kegiatan</th>
-                          <th>Tipe</th>
-                          <th>Point</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td align="center">1</td>
-                          <td>#####</td>
-                          <td>#####</td>
-                          <td>
-                            #####
-                          </td>
-                        </tr>
-                        <tr>
-                          <td  align="center">2</td>
-                          <td>#####</td>
-                          <td>#####</td>
-                          <td>
-                            #####
-                          </td>
-                        </tr>
-                        <tr>
-                          <td align="center">3</td>
-                          <td>#####</td>
-                          <td>#####</td>
-                          <td>
-                            #####</td>
-                        </tr>
-                        <tr>
-                          <td align="center" >4</td>
-                          <td>#####</td>
-                          <td>#####</td>
-                          <td>
-                            #####</td>
-                        </tr>
-                        <tr>
-						
-                          <td colspan="3" align="right">Total Point</td>
-                          <td>
-                            #####</td>
-                        </tr>
-                      </tbody>
-                    </table>
-					
-&nbsp;
-<nav aria-label="Page navigation example">
-                  <ul class="pagination">
-                    <li class="page-item">
-                      <a class="page-link" href="#">Previous</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">Next</a>
-                    </li>
-                  </ul>
-                </nav>
-                                            
-                              
-                          
-                          
-                        
-                            
-
+                  
+                  <!--end-->
+                </div>
+          </div>
         </div>
       </main>
-	  </div>
       <aside class="aside-menu">
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
@@ -493,40 +393,40 @@
         <div class="tab-content">
           <div class="tab-pane active" id="timeline" role="tabpanel">
             <div class="list-group list-group-accent">
-              <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Today</div>
+              <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Kabar Hari ini</div>
               <div class="list-group-item list-group-item-accent-warning list-group-item-divider">
                 <div class="avatar float-right">
                   <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                 </div>
-                <div>Meeting with
-                  <strong>Lucas</strong>
+                <div>Ngaji di Unsiq Gratis
+                  <strong>Mahasiswa</strong>
                 </div>
                 <small class="text-muted mr-3">
-                  <i class="icon-calendar"></i>  1 - 3pm</small>
+                  <i class="icon-calendar"></i>  7 - 11 pm</small>
                 <small class="text-muted">
-                  <i class="icon-location-pin"></i>  Palo Alto, CA</small>
+                  <i class="icon-location-pin"></i>  Munggang, Bawah</small>
               </div>
               <div class="list-group-item list-group-item-accent-info">
                 <div class="avatar float-right">
                   <img class="img-avatar" src="assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
                 </div>
-                <div>Skype with
-                  <strong>Megan</strong>
+                <div>Ngoding bareng
+                  <strong>OmoOtoke</strong>
                 </div>
                 <small class="text-muted mr-3">
                   <i class="icon-calendar"></i>  4 - 5pm</small>
                 <small class="text-muted">
                   <i class="icon-social-skype"></i>  On-line</small>
               </div>
-              <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Tomorrow</div>
+              <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Kemarin</div>
               <div class="list-group-item list-group-item-accent-danger list-group-item-divider">
-                <div>New UI Project -
+                <div>Buat Project -
                   <strong>deadline</strong>
                 </div>
                 <small class="text-muted mr-3">
                   <i class="icon-calendar"></i>  10 - 11pm</small>
                 <small class="text-muted">
-                  <i class="icon-home"></i>  creativeLabs HQ</small>
+                  <i class="icon-home"></i>  Kampret HQQ</small>
                 <div class="avatars-stack mt-2">
                   <div class="avatar avatar-xs">
                     <img class="img-avatar" src="assets/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
@@ -545,45 +445,7 @@
                   </div>
                 </div>
               </div>
-              <div class="list-group-item list-group-item-accent-success list-group-item-divider">
-                <div>
-                  <strong>#10 Startups.Garden</strong> Meetup</div>
-                <small class="text-muted mr-3">
-                  <i class="icon-calendar"></i>  1 - 3pm</small>
-                <small class="text-muted">
-                  <i class="icon-location-pin"></i>  Palo Alto, CA</small>
-              </div>
-              <div class="list-group-item list-group-item-accent-primary list-group-item-divider">
-                <div>
-                  <strong>Team meeting</strong>
-                </div>
-                <small class="text-muted mr-3">
-                  <i class="icon-calendar"></i>  4 - 6pm</small>
-                <small class="text-muted">
-                  <i class="icon-home"></i>  creativeLabs HQ</small>
-                <div class="avatars-stack mt-2">
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                  <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/8.jpg" alt="admin@bootstrapmaster.com">
-                  </div>
-                </div>
+              
               </div>
             </div>
           </div>
