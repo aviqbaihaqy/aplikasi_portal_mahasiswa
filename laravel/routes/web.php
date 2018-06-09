@@ -31,12 +31,18 @@ Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
 Route::get('/home', 'HomeController@index')->name('home');
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6e238e96ba8dcb53153d15e61f81babfd2ceaa84
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
+<<<<<<< HEAD
+Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
+=======
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/mahasiswa', 'MahasiswaController@mahasiswa')->name('mahasiswa');

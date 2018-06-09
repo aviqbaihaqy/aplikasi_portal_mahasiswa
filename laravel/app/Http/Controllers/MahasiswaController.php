@@ -7,7 +7,29 @@ use Illuminate\Http\Request;
 class MahasiswaController extends Controller
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
+=======
+  	/**
+  	 * create a new controller instance.
+	 *
+	 * @return void
+	 */
+  	public function _construct()
+  	{
+  		$this->middleware('auth');
+  	}
+
+  	/**
+  	 * Create the application dashboard.
+  	 *
+  	 * @return \Illuminate\Http\Response
+  	 */
+  	public function index()
+  	{
+  		return view('mahasiswa');
+  	}
+>>>>>>> 1facb690d5b44e1322e327dfd3d44e9be0c96522
 =======
 <<<<<<< HEAD
 	/**
