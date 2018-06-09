@@ -6,7 +6,32 @@ use Illuminate\Http\Request;
 
 class MahasiswaController extends Controller
 {
+<<<<<<< HEAD
+  	/**
+  	 * create a new controller instance.
+	 *
+	 * @return void
+	 */
+  	public function _construct()
+  	{
+  		$this->middleware('auth');
+  	}
+
+  	/**
+  	 * Create the application dashboard.
+  	 *
+  	 * @return \Illuminate\Http\Response
+  	 */
+  	public function index()
+  	{
+  		return view('mahasiswa');
+  	}
+=======
+<<<<<<< HEAD
+	/**
+=======
     /**
+>>>>>>> 55a29291eb49483506f4ebe77e34d1c72af709a2
      * Create a new controller instance.
      *
      * @return void
@@ -17,6 +42,26 @@ class MahasiswaController extends Controller
     }
 
     /**
+<<<<<<< HEAD
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
+
+    public function mahasiswa(){
+    	return view('mahasiswa');
+    }
+
+    //form tambah data
+    public function create(){
+        return view('mahasiswa.create');
+    }
+
+    public function store(Request $request){
+        
+    }
+    
+=======
      * menampilkan user interace keseluruhan data
      *
      * @return \Illuminate\Http\Response
@@ -81,4 +126,6 @@ class MahasiswaController extends Controller
         //perintah untuk menghapus data
     }
 
+>>>>>>> 55a29291eb49483506f4ebe77e34d1c72af709a2
+>>>>>>> 6e238e96ba8dcb53153d15e61f81babfd2ceaa84
 }
