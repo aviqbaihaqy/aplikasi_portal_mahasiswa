@@ -26,8 +26,10 @@ class HomeController extends Controller
         return view('home');
     }
 
+
     public function mahasiswa()
     {
         return view('mahasiswa');
     }
+
 }

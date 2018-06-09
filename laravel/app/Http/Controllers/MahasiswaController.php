@@ -80,4 +80,5 @@ class MahasiswaController extends Controller
     {
         //perintah untuk menghapus data
     }
+
 }
