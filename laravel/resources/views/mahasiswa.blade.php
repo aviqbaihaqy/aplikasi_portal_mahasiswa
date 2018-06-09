@@ -5,7 +5,11 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
+<<<<<<< HEAD
                 <div class="card-header">Welcome, Mahasiswa</div>
+=======
+                <div class="card-header">Mahasiswa</div>
+>>>>>>> 55a29291eb49483506f4ebe77e34d1c72af709a2
 
                 <div class="card-body">
                     @if (session('status'))
