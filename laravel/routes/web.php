@@ -145,7 +145,7 @@ Route::get('/registrasi/status_her', 'RegistrasiController@showStatusHer')->name
 Route::get('/biodata/data_diri', 'BiodataController@showFormDatadiri')->name('form datadiri');
 
 // 41, Zulhilmi Dharma Nugraha, 2015150111,Contoh Pengisian Biodata `Alamat` Mahasiswa
-Route::get('/biodata/alamat', 'BiodataController@showFormAlamat')->name('form alamat');
+Route::get('/biodata/data_alamat', 'BiodataController@showFormAlamat')->name('form alamat');
 
 // 42, Ali Hasan, 8011161,Contoh Pengisian Biodata `Data Keluarga` Mahasiswa
 Route::get('/biodata/data_keluarga', 'BiodataController@showFormKeluarga')->name('form keluarga');
