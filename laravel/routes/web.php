@@ -19,14 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-=======
-Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
-=======
 /**
  * KETIKA DIJALANKAN AKAN ERROR KARENA CONTROLLER BELUM DIBUAT, 
  * OLEH KARENA ITU MATIKAN `//` (JANGAN DIHAPUS) ROUTE YANG TIDAK DIKERJAKAN
@@ -35,20 +27,6 @@ Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
 // 1, Adi Suprono, 0755201120185, Tampilan Awal Website Mahasiswa
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
-
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
-=======
-
-Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
-=======
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/mahasiswa', 'MahasiswaController@mahasiswa')->name('mahasiswa');
-=======
 // 2, Novi Febriani, 2015150002, Halaman Login Website Mahasiswa menggunakan PAuS dan Contoh Tampilan Ganti Password
 // #sudah disediakan, coba cek menggunakan php artisan route:list, tinggal ganti view nya
 
