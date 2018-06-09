@@ -35,14 +35,6 @@ Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
 // 1, Adi Suprono, 0755201120185, Tampilan Awal Website Mahasiswa
 Route::get('/home', 'HomeController@index')->name('home');
 
-
-=======
-
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
 Auth::routes();
 
 
