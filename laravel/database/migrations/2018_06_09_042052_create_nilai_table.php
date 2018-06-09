@@ -31,6 +31,6 @@ class CreateNilaiTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('nilai');
+        Schema::dropIfExists('tagihanbayar');
     }
 }
