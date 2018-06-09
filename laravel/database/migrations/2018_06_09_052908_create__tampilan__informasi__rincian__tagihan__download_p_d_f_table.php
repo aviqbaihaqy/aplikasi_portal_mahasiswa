@@ -13,13 +13,13 @@ class CreateTampilanInformasiRincianTagihanDownloadPDFTable extends Migration
      */
     public function up()
     {
-        Schema::create('tampilan__informasi__rincian__tagihan__download_p_d_f', function (Blueprint $table) {
+        Schema::create('tampilan_informasi_rincian_tagihan_download_p_d_f', function (Blueprint $table) {
             $table->increments('id');
             $table->string('peruntukan');
             $table->string('komponen');
-            $table->string('jumlah');
-            $table->string('remisi');
-            $table->string('total');
+            $table->string('jumlah Rp');
+            $table->string('remisi Rp');
+            $table->string('total Rp');
             $table->timestamps();
         });
     }
