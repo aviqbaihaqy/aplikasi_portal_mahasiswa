@@ -15,12 +15,14 @@ class CreateTranskripKemahasiswaanTable extends Migration
     {
         Schema::create('transkrip_kemahasiswaan', function (Blueprint $table) {
             $table->increments('id');
-            $table->string[100]('nama_kegiatan');
-            $table->string[100]('tipe_kegiatan');
-            $table->integer[4]('point');
+            $table->string('tahun_ajaran',50);
+            $table->string('nama_kegiatan',150);
+            $table->text('tipe_kegiatan');
+            $table->string('point');
             $table->timestamps();
         });
-    }
+    }       
+      
 
     /**
      * Reverse the migrations.
