@@ -15,14 +15,14 @@
     <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
     <meta name="author" content="Łukasz Holeczek">
     <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
-    <title>Data Transkrip Kemahasiswaan</title>
+    <title>Informasi Tagihan Status Sudah Bayar</title>
     <!-- Icons-->
-    <link href="assets/vendors/css/flag-icon.min.css" rel="stylesheet">
-    <link href="assets/vendors/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/vendors/css/simple-line-icons.css" rel="stylesheet">
+    <link href="../as+/vendors/css/flag-icon.min.css" rel="stylesheet">
+    <link href="../assets/vendors/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/vendors/css/simple-line-icons.css" rel="stylesheet">
     <!-- Main styles for this application-->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/vendors/css/pace.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/vendors/css/pace.min.css" rel="stylesheet">
   </head>
   <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
     <header class="app-header navbar">
@@ -30,8 +30,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">
-        <img class="navbar-brand-full" src="assets/img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
-        <img class="navbar-brand-minimized" src="assets/img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
+        <img class="navbar-brand-full" src="../assets/img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
+        <img class="navbar-brand-minimized" src="../assets/img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
       </a>
       <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
         <span class="navbar-toggler-icon"></span>
@@ -66,7 +66,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-            <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+            <img class="../assets/img-avatar" src="../assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
           </a>
           <div class="dropdown-menu dropdown-menu-right">
             <div class="dropdown-header text-center">
@@ -128,14 +128,14 @@
               </a>
             </li>
             <li class="nav-item nav-dropdown">
-        <a class="nav-link nav-dropdown-toggle" href="#">
-          <i class="fa fa-angle-double-right"></i> Akademik</a>
-        <ul class="nav-dropdown-items">
-          <li class="nav-item">
-            <a class="nav-link" href="#" target="_top">
-              <i class="fa fa-angle-double-right"></i> Transkip Nilai</a>
-          </li>
-          <li class="nav-item">
+              <a class="nav-link nav-dropdown-toggle" href="#">
+                <i class="fa fa-angle-double-right"></i> Akademik</a>
+              <ul class="nav-dropdown-items">
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_top">
+                <i class="fa fa-angle-double-right"></i> Transkip Nilai</a>
+            </li>
+            <li class="nav-item">
             <a class="nav-link" href="#" target="_top">
               <i class="fa fa-angle-double-right"></i> Kartu Kemajuan Studi</a>
           </li>
@@ -160,7 +160,7 @@
               <i class="fa fa-angle-double-right"></i> Jadwal & Absensi Kuliah</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link nav-link-success active" href="Contoh-Tampilan-Transkrip-Kemahasiswaan.html" target="_top">
+            <a class="nav-link" href="#" target="_top">
               <i class="fa fa-angle-double-right"></i> Transkip Kemahasiswaan</a>
           </li>
           <li class="nav-item">
@@ -169,16 +169,17 @@
           </li>
         </ul>
       </li>
-      <li class="nav-item nav-dropdown open">
-          <a class="nav-link nav-dropdown-toggle" href="#">
-            <i class="fa fa-angle-double-right"></i> Pendaftaran Kegiatan</a>
+      <li class="nav-item nav-dropdown">
+              <a class="nav-link nav-dropdown-toggle" href="#">
+                <i class="fa fa-angle-double-right">
+      </i> Pendaftaran Kegiatan</a>
           <ul class="nav-dropdown-items">
             <li class="nav-item">
               <a class="nav-link" href="#" target="_top">
                 <i class="fa fa-angle-double-right"></i> Kuliah Kerja Nyata</a>
             </li>
             <li class="nav-item open">
-              <a class="nav-link" href="transkripmhs.html" target="_top">
+              <a class="nav-link" href="#" target="_top">
                 <i class="fa fa-angle-double-right"></i> Daftar Semester Antara</a>
             </li>
             <li class="nav-item">
@@ -199,21 +200,21 @@
             </li>
           </ul>
         </li>
-          <li class="nav-item nav-dropdown">
-            <a class="nav-link nav-dropdown-toggle" href="#">
-              <i class="fa fa-angle-double-right"></i> Status Registrasi</a>
+        <li class="nav-item nav-dropdown open">
+          <a class="nav-link nav-dropdown-toggle" href="#">
+            <i class="fa fa-angle-double-right"></i> Status Registrasi</a>
             <ul class="nav-dropdown-items">
               <li class="nav-item">
-                <a class="nav-link" href="#" target="_top">
-                  <i class="fa fa-angle-double-right"></i> Informasi Tagihan</a>
+                <a class="nav-link nav-link nav-link-success active" href="#" target="_top">
+                <i class="fa fa-angle-double-right"></i> Informasi Tagihan</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" target="_top">
                   <i class="fa fa-angle-double-right"></i> Status Her-Registrasi</a>
               </li>
             </ul>
-          </li>        
-      <li class="nav-item nav-dropdown">
+          </li>   
+          <li class="nav-item nav-dropdown">
         <a class="nav-link nav-dropdown-toggle" href="#">
           <i class="fa fa-angle-double-right"></i> Peminjaman Fasilitas</a>
         <ul class="nav-dropdown-items">
@@ -242,7 +243,7 @@
               <i class="fa fa-angle-double-right"></i> Jadwal Ruang</a>
           </li>
         </ul>
-      </li>
+      </li>   
       <li class="nav-item nav-dropdown">
         <a class="nav-link nav-dropdown-toggle" href="#">
           <i class="fa fa-angle-double-right"></i> Profil</a>
@@ -262,14 +263,19 @@
                 <i class="fa fa-angle-double-right"></i>  Logout</a>
             </li>
           </ul>
-        </nav>
+        </nav> 
         <button class="sidebar-minimizer brand-minimizer" type="button"></button>
-      </div>
+      </div> 
+           
       <main class="main">
         <!-- Breadcrumb-->
         <ol class="breadcrumb">
-          <li class="breadcrumb-item">Transkrip Kemahasiswaan</li>
-          
+          <li class="breadcrumb-item">Status Registrasi</li>
+          <li class="breadcrumb-item">Informasi Tagihan</li>
+          <li class="breadcrumb-item">
+            <a href="#">Informasi Status Bayar
+
+            </a>
           </li>
           <!-- Breadcrumb Menu-->
           <li class="breadcrumb-menu d-md-down-none">
@@ -286,191 +292,59 @@
         </ol>
         <div class="container-fluid">
           <div class="animated fadeIn">
-            <div class="row">
-              <div class="col">
-                
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#satu" role="tab" aria-controls="home" aria-selected="false">Informasi Umum</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#dua" role="tab" aria-controls="profile" aria-selected="false">Mata Kuliah Semester Antara</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tiga" role="tab" aria-controls="messages" aria-selected="false">Pendaftaran Semester Antara</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active show" data-toggle="tab" href="#empat" role="tab" aria-controls="messages" aria-selected="true">Informasi Status Bayar</a>
+                  </li>
+                </ul>
+
                 <div class="tab-content">
-                  <div class="tab-pane active" id="inf" role="tabpanel">
-   <div class="card">
-                  <div class="card-header">
-                    DATA TRANSKRIP KEMAHASISWAAN
+                  <div class="tab-pane" id="satu" role="tabpanel">
                   </div>
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-sm-12">
-                                                  
-                             
-   <table style="width: auto;">
- 		 <img src="assets/img/profil.png" align="right" width="140" height="140">
-                      
-                      <tbody>
-                        <tr>
-                          <td>NIM</td>
-                          <td>:</td>
-                          <td>#####</td>
-                        </tr>
-                        <tr>
-                          <td>NAMA</td>
-                          <td>:</td>
-                          <td>#####</td>
-                          
-                        </tr>
-                        <tr>
-                          <td>ANGKATAN</td>
-                          <td>:</td>
-                          <td>#####</td>
-                          
-                        <tr>
-                          <td>PROGRAM</td>
-                          <td>:</td>
-                          <td>SARJANA</td>
-                          
-                        </tr>
-                        <tr>
-						<tr>
-                          <td>PROGRAM STUDI</td>
-                          <td>:</td>
-                          <td>TEKNIK INFORMATIKA</td>
-                        
-                        </tr>
-                       
-  
-                      </tbody>
-                    </table>
-    
-                        <div class="progress-group mb-4">
-                          
-                      <!--/.col-->
-                     
-                          <div class="col-sm-6">
-                            <div class="callout callout-warning">
-                              
-                              <div class="chart-wrapper">
-                               
-                              </div>
-                            </div>
-                          </div>
-                          <!--/.col-->
-                          <div class="col-sm-6">
-                            <div class="callout callout-success">
-                              
-                              <div class="chart-wrapper">
-                                
-                              </div>
-                            </div>
-                          </div>
-                          <!--/.col-->
-                        </div>
-                        <!--/.row-->
-                       
-                          
-                        
-                        
-                        </div>
-                        <div class="progress-group">
-                          
-                          <div class="progress-group-bars">
-                            
-                          </div>
-                        </div>
-                        <div class="progress-group">
-                          
-                          <div class="progress-group-bars">
-                            
-                          
-                        </div>
-                      </div>
-                      <!--/.col-->
-                    </div>
-                    <!--/.row-->
-                  
-               <div class="row">
-
-              <div class="col-lg-12">
-                <div class="card">
-                  <div class="card-header">
-                    <i class="fa fa-align-justify"></i> Tahun Ajaran : 2018/2019 - Genap
+                  <div class="tab-pane" id="dua" role="tabpanel">
                   </div>
-                  <div class="card-body">
-                    <table class="table table-responsive-sm table-bordered">
-                      <thead>
-                        <tr>
-                          <th width="10" align="center"><center>No</center></th>
-                          <th>Nama Kegiatan</th>
-                          <th>Tipe</th>
-                          <th>Point</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td align="center">1</td>
-                          <td>#####</td>
-                          <td>#####</td>
-                          <td>
-                            #####
-                          </td>
-                        </tr>
-                        <tr>
-                          <td  align="center">2</td>
-                          <td>#####</td>
-                          <td>#####</td>
-                          <td>
-                            #####
-                          </td>
-                        </tr>
-                        <tr>
-                          <td align="center">3</td>
-                          <td>#####</td>
-                          <td>#####</td>
-                          <td>
-                            #####</td>
-                        </tr>
-                        <tr>
-                          <td align="center" >4</td>
-                          <td>#####</td>
-                          <td>#####</td>
-                          <td>
-                            #####</td>
-                        </tr>
-                        <tr>
-						
-                          <td colspan="3" align="right">Total Point</td>
-                          <td>
-                            #####</td>
-                        </tr>
-                      </tbody>
-                    </table>
-					
-&nbsp;
-<nav aria-label="Page navigation example">
-                  <ul class="pagination">
-                    <li class="page-item">
-                      <a class="page-link" href="#">Previous</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">Next</a>
-                    </li>
-                  </ul>
-                </nav>
-                                            
-                              
-                          
-                          
-                        
-                            
+                  <div class="tab-pane" id="tiga" role="tabpanel">
+                  </div>
+                  <div class="tab-pane  active show" id="empat" role="tabpanel">
+                    <font>Untuk mendownload Formulir Tagihan, silahkan masuk ke rincian.</font>
+<table class="table">
+  <thead class="thead-default">
+    <tr>
+      <th>SEMESTER TAHUN AJARAN</th>
+      <th>NO TAGIHAN</th>
+      <th>JUMLAH SKS/PAKET</th>
+      <th>TOTAL BAYAR</th>
+      <th>STATUS BAYAR</th>
+      <th>DETAIL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2012</td>
+      <td></td>
+      <td>6</td>
+      <td>Rp. 330.000,00</td>
+      <td><font color="red">Sudah Bayar</font></td>
+      <td><a href="#">Rincian</a></td>
+    </tr>
+  </tbody>
+</table>
+                  </div>
+                </div>
 
+
+          </div>
         </div>
       </main>
-	  </div>
       <aside class="aside-menu">
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
@@ -496,7 +370,7 @@
               <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Today</div>
               <div class="list-group-item list-group-item-accent-warning list-group-item-divider">
                 <div class="avatar float-right">
-                  <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                 </div>
                 <div>Meeting with
                   <strong>Lucas</strong>
@@ -508,7 +382,7 @@
               </div>
               <div class="list-group-item list-group-item-accent-info">
                 <div class="avatar float-right">
-                  <img class="img-avatar" src="assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
                 </div>
                 <div>Skype with
                   <strong>Megan</strong>
@@ -529,19 +403,19 @@
                   <i class="icon-home"></i>  creativeLabs HQ</small>
                 <div class="avatars-stack mt-2">
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                 </div>
               </div>
@@ -563,25 +437,25 @@
                   <i class="icon-home"></i>  creativeLabs HQ</small>
                 <div class="avatars-stack mt-2">
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/8.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/8.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                 </div>
               </div>
@@ -591,7 +465,7 @@
             <div class="message">
               <div class="py-3 pb-5 mr-3 float-left">
                 <div class="avatar">
-                  <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                   <span class="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -606,7 +480,7 @@
             <div class="message">
               <div class="py-3 pb-5 mr-3 float-left">
                 <div class="avatar">
-                  <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                   <span class="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -621,7 +495,7 @@
             <div class="message">
               <div class="py-3 pb-5 mr-3 float-left">
                 <div class="avatar">
-                  <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                   <span class="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -636,7 +510,7 @@
             <div class="message">
               <div class="py-3 pb-5 mr-3 float-left">
                 <div class="avatar">
-                  <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                   <span class="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -651,7 +525,7 @@
             <div class="message">
               <div class="py-3 pb-5 mr-3 float-left">
                 <div class="avatar">
-                  <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                   <span class="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -768,11 +642,11 @@
       </div>
     </footer>
     <!-- Bootstrap and necessary plugins-->
-    <script src="assets/vendors/js/jquery.min.js"></script>
-    <script src="assets/vendors/js/popper.min.js"></script>
-    <script src="assets/vendors/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/js/pace.min.js"></script>
-    <script src="assets/vendors/js/perfect-scrollbar.min.js"></script>
-    <script src="assets/vendors/js/coreui.min.js"></script>
+    <script src="../assets/vendors/js/jquery.min.js"></script>
+    <script src="../assets/vendors/js/popper.min.js"></script>
+    <script src="../assets/vendors/js/bootstrap.min.js"></script>
+    <script src="../assets/vendors/js/pace.min.js"></script>
+    <script src="../assets/vendors/js/perfect-scrollbar.min.js"></script>
+    <script src="../assets/vendors/js/coreui.min.js"></script>
   </body>
 </html>
