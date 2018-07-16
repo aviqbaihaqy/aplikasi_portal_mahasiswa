@@ -58,25 +58,15 @@
                             <th bgcolor="#000000"><font color="#FFFFFF">MATA KULIAH</font></th>
         					<th bgcolor="#000000"><font color="#FFFFFF">SKS</font></th>
                         </tr>
-                    		<tr height="15">
-		            		<td></td>
-                    		<td></td>
-                    		<td></td>
-                            <td></td>
-                    		</tr>
-                            <tr height="15">
-		            		<td></td>
-                    		<td></td>
-                    		<td></td>
-                            <td></td>
-                    		</tr>
-                            <tr height="15">
-		            		<td></td>
-                    		<td></td>
-                    		<td></td>
-                            <td></td>
-                    		</tr>          
-                    </table>
+
+                    		@foreach($tasks as $task)
+                		<tr>
+                    	<td>{{$task['no']}}</td>
+                    	<td>{{$task['sandi']}}</td>
+                    	<td>{{$task['makul']}}</td>
+                    	<td>{{$task['sks']}}</td>
+                        </tr>  
+                    	</table>
 					</font>
                     <br />
           <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">  
@@ -90,11 +80,12 @@
                     <th bgcolor="#000000"><font color="#FFFFFF"> DOSEN WALI </font>
                     <th bgcolor="#000000"><font color="#FFFFFF"> CATATAN </font></th>
                     </tr>
-		            <tr height="65">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    </tr>                
+		            @foreach($tasks as $task)
+                		<tr>
+                    	<td>{{$task['mhs']}}</td>
+                    	<td>{{$task['dsn_wali']}}</td>
+                    	<td>{{$task['catatam']}}</td>
+                        </tr>              
 				
        
 					<table width="190" border="0" cellspacing="0" cellpadding="0" align="right">				  
@@ -190,24 +181,14 @@
                             <th bgcolor="#000000"><font color="#FFFFFF">MATA KULIAH</font></th>
         					<th bgcolor="#000000"><font color="#FFFFFF">SKS</font></th>	
                         </tr>
-		                    <tr height="15">
-		            		<td></td>
-                    		<td></td>
-                    		<td></td>
-                            <td></td>
-                    		</tr>
-                            <tr height="15">
-		            		<td></td>
-                    		<td></td>
-                    		<td></td>
-                            <td></td>
-                    		</tr>
-                            <tr height="15">
-		            		<td></td>
-                    		<td></td>
-                    		<td></td>
-                            <td></td>
-                    		</tr>         
+
+                            @foreach($tasks as $task)
+                		<tr>
+                    	<td>{{$task['no']}}</td>
+                    	<td>{{$task['sandi']}}</td>
+                    	<td>{{$task['makul']}}</td>
+                    	<td>{{$task['sks']}}</td>
+                        </tr>    
                     </table>
 					</font>
                     <br />
@@ -222,11 +203,12 @@
                     <th bgcolor="#000000"><font color="#FFFFFF"> DOSEN WALI </font>
                     <th bgcolor="#000000"><font color="#FFFFFF"> CATATAN </font></th>
                     </tr>
-		            <tr height="65">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    </tr>                
+		            @foreach($tasks as $task)
+                		<tr>
+                    	<td>{{$task['mhs']}}</td>
+                    	<td>{{$task['dsn_wali']}}</td>
+                    	<td>{{$task['catatam']}}</td>
+                        </tr>                 
 				
        
 					<table width="190" border="0" cellspacing="0" cellpadding="0" align="right">				  
