@@ -149,3 +149,7 @@ Route::get('biodata/data_alamat', 'BiodataController@showFormAlamat')->name('for
 
 // 42, Ali Hasan, 8011161,Contoh Pengisian Biodata `Data Keluarga` Mahasiswa
 Route::get('biodata/data_keluarga', 'BiodataController@showFormKeluarga')->name('form.keluarga');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
